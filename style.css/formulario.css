@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Space+Mono&display=swap');
+
+#nombre {
+    
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 6.25em;
+    background: #F9F9F9;
+    border: 0.06em solid #E6E6E6;
+    height: 5em;
+    width: 40.81em;
+    left: 0px;
+    top: 0px;
+    border-radius: 0.31em;
+    gap: 2.94em;
+    }
+::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.87em;
+    line-height: 1.75em;
+    letter-spacing: 0.2px;
+    color: #737373;
+    left: 1.62em;
+    height: 1.75em;
+    padding-left: 1.25em;
+    }
+#email {
+    width: 40.81em;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 0.31em;
+    height: 5em;
+    margin-top: 0.62em;
+    margin-bottom: 1.25em;
+    
+}
+
+#message {
+height: 140px;
+width: 655px;
+left: 697px;
+top: 1209px;
+border-radius: 5px;
+width: 655px;
+height: 140px;
+left: 697px;
+top: 1209px;
+background: #F9F9F9;
+border: 1px solid #E6E6E6;
+border-radius: 0.31em;
+padding-top: 10px;
+}
+
+.submit {
+width: 357.82px;
+height: 86px;
+left: 696px;
+top: 1365px;
+background: #6C56C2;
+border-radius: 16px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+margin-top: 10px;
+}
+
+    
+
