@@ -1,48 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="./style/estructura.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
   <!--este este contenedor incluye todo-->
   <div class="container">
     <!--En el header irá el navbar hecho por Silvana y el h1 habrà que substituirlo por el código del navbar-->
-    <header class="nav">
-      <header class="header-main">
-    
-        <div class="header-navbar">
-         <img src="https://factoriaf5-amunt.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F340b8894-0e1c-4286-81d4-b01593801486%2FLogo_(2).png?id=527ff5da-68d7-4b6f-a4ec-50bb609de464&table=block&spaceId=0bb7cdf3-dcaa-4c91-99c2-4655d28c668f&width=160&userId=&cache=v2">
-         <nav class="navbar"> 
-           <ul class="navbar-items">
-               <li><a href="#" class=>Home </a></li>
-               <li><a href="#" class=>Products</a></li>
-               <li><a href="#" class=>Shop</a></li>
-               <li><a href="#" class=>contacts</a></li>
-          </ul>
-         </nav>
+    <header class="header-main">
+     <div class="header-navbar">
+          <img
+            src="https://factoriaf5-amunt.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F340b8894-0e1c-4286-81d4-b01593801486%2FLogo_(2).png?id=527ff5da-68d7-4b6f-a4ec-50bb609de464&table=block&spaceId=0bb7cdf3-dcaa-4c91-99c2-4655d28c668f&width=160&userId=&cache=v2">
+          <nav class="navbar">
+            <ul class="navbar-items">
+              <li><a href="#" class=>Home </a></li>
+              <li><a href="#" class=>Products</a></li>
+              <li><a href="#" class=>Shop</a></li>
+              <li><a href="#" class=>contacts</a></li>
+            </ul>
+          </nav>
         </div>
-          <button class="btn-navbar"> try it!</button> 
-       </header> 
+        <button class="btn-navbar"> try it!</button>
     </header>
-    <main class="main">
+    <main class="main-content">
       <!--En esta sección irá el contenido de texto principal hecho por Irina y la imagen. Cada cosa dentro de su div respectivo. -->
-      <section class="main_content">
+      <section class="main">
         <!--dentro del div principal irán el div .principal de Irina y los botones hechos por Maribel -->
-        <div class="principal">Texto principal</div>
-        <div class="imagen">Imagen</div>
+        <div>
+        <div class="principal-text">Texto principal</div>
+        <div class="parrafo_principal-text"></div>
+        </div>
+        <!--aquí irán los links download app y play video-->
+        <div class="linKs"></div>
       </section>
-<!--En esta sección va el contacta hecho por Irina y el formulario hecho por Jezabel-->
-      <section class="contacto">
-        <!--Aqui habrá que cambiar el h1 por el código que tiene Irina -->
-        <h1>contacta</h1>
-        <!--Aquí habrá que poner el código del formulario-->
-        <div class="formulario">formulario</div>
+      <section class="pad">
+        <div class="imagen-pad">
+          <img width="100%" src="https://factoriaf5-amunt.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd4a2cc23-c354-4afa-ab1c-00226299b078%2Fpad.png?id=80acd707-b6d8-4c67-8f6c-451626d0329e&table=block&spaceId=0bb7cdf3-dcaa-4c91-99c2-4655d28c668f&width=1210&userId=&cache=v2"
+              alt="imagen pad">
+          
+          <div class="set_btn-pad">
+              <button onclick="playInstrument('sounds/bombo (1).wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/crash.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/hit-hat.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/redoblante.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/tom1.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/tom2.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/tom3.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/tom4.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/bombo (1).wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/crash.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/hit-hat.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/redoblante.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/tom1.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/tom2.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/tom3.wav')" class="btn-pad"></button>
+              <button onclick="playInstrument('sounds/tom4.wav')" class="btn-pad"></button>
+          </div>
+        </div>
       </section>
     </main>
   </div>
+  <div class="contact">
+  <!--En esta sección va el contacta hecho por Irina-->
+    <section class="contacta"></section>
+   
+    <section class="formulario">
+      <form>
+        <label for="nombre">
+          <input type="text" id="nombre" required name="un" placeholder="Nombre*">
+        </label>
+        <br>
+        <label for="email">
+          <input type="email" id="email" required name="@" placeholder="Email*">
+        </label>
+        <br>
+        <label for="message">
+          <textarea id="message" name="message" placeholder="Message"></textarea>
+        </label>
+        <br>
+        <button class="submit" type="submit">Enviar</button>
+      </form>
+    </section>
+    </div>
+  </section>
+</div>
+
 </body>
+
 </html>
