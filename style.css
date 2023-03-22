@@ -150,7 +150,28 @@ body {
         color: #FFFFFF;
         margin-top: 10px;
     }
-    
+    .download {
+        background-color: #6C56C2;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1.15em;
+        line-height: 27px;
+        text-align: center;
+        height: 65px;
+        width: 35%;
+        border-radius: 1em;
+    }
+    .links {
+        display:flex;
+        align-items:center;
+        gap:20px;
+        font-weight: 500;
+        font-size: 1.25em;
+        line-height: 1.5em;
+        margin-top: 50px;
+    }
         
     
     
