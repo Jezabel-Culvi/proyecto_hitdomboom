@@ -93,7 +93,8 @@ body {
 }
 
 .imagen-pad {
-    height: min-content;
+    height: 100%;
+    width: 100%;
     position: relative;
     border-radius: 2.12em;
     box-shadow: 0 0 70px 4px rgba(128, 115, 143, 0.56);
